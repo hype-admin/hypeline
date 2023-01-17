@@ -1,9 +1,9 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='hypeline',
     version='0.1',
-    py_modules=find_packages(),
+    packages=['hypeline'],
     install_requires=[
         'gspread',
         'dropbox',
