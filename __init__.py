@@ -1,1 +1,1 @@
-from .hypeline import say_hi
+from . import hypeline

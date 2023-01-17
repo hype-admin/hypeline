@@ -1,1 +1,1 @@
-from .maya_ascii import say_ascii
+from . import say_ascii

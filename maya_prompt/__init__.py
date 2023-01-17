@@ -1,1 +1,1 @@
-from .maya_prompt import say_prompt
+from . import say_prompt
