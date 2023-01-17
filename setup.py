@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='hypeline',
     version='0.1',
-    py_modules=['hypeline'],
+    py_modules=['hypeline.hypeline'],
     install_requires=[
         'gspread',
         'dropbox',
