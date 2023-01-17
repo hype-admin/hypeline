@@ -1,14 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='hypeline',
     version='0.1',
-    py_modules=[
-        'hypeline.hypeline',
-        'hypeline.hypeline.files_tools',
-        'hypeline.hypeline.maya_ascii',
-        'hypeline.hypeline.maya_prompt'
-        ],
+    py_modules=find_packages(),
     install_requires=[
         'gspread',
         'dropbox',
