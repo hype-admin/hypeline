@@ -12,9 +12,4 @@ setup(
         'ftrack_python_api',
         'tqdm'
     ],
-    entry_points={
-        'console_scripts': [],
-        'gui_scripts': [],
-        'hypeline': ['hypeline = hypeline.hypeline']
-    },
 )

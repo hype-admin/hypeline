@@ -1,1 +1,0 @@
-from . import maya_prompt
