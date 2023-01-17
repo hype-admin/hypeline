@@ -9,7 +9,7 @@ setup(
         'dropbox',
         'requests',
         'pandas',
-        'ftrack_api',
+        'ftrack_python_api',
         'tqdm'
     ],
     entry_points={
