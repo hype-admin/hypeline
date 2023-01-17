@@ -1,4 +1,4 @@
 print('hello from prompt')
 
-def say_propmt():
+def say_prompt():
     print('prompt go brrrr')
