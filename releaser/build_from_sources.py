@@ -163,7 +163,7 @@ def _build(jsonPath):
 
         archiveName = f"{archiveBaseName}_{buildName}"
 
-        print("Gerando a release:", buildName)
+        print("\n", "Gerando a release:", buildName)
         for link in filesDict[buildName]:
 
             if r"{latest}" in link:
@@ -190,6 +190,8 @@ def add_file_to_archive(file, archiveName):
     if not os.path.exists('./releases'):
         os.mkdir('./releases/')
 
-    with zipfile.ZipFile(f"./releases/{archiveName}.zip", "a") as zip_file:
+    zipName = f"./releases/{archiveName}.zip"
+
+    with zipfile.ZipFile(zipName, "a") as zip_file:
         zip_file.write(file)
 
