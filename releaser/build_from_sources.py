@@ -194,4 +194,3 @@ def add_file_to_archive(file, archiveName):
 
     with zipfile.ZipFile(zipName, "a") as zip_file:
         zip_file.write(file)
-
